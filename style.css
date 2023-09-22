@@ -1,0 +1,395 @@
+:root{
+  --cor_cabecalho_rodape: #003840;
+  --cor1: #008C72;
+  --cor2: #003840;
+  --cor_legenda1: white;
+  --cor_conteiner1: #003840;
+  --cor_conteiner2: #008C72;
+  --cor_hover: #08d3ee;
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+  zoom: 0%; 
+}
+.cabecalho{
+  padding: 50px;
+  background-color: var(--cor_cabecalho_rodape);  font-size: 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+}
+
+.menu{
+  padding: 0%;
+  margin-top: -3%;
+  align-items: center;
+}
+
+.imagem_cabecalho{
+  padding: 0%;
+  align-items: center;
+  position: absolute;
+}
+.imagem_logo{
+  margin-top: -1%;
+  width: 20%;
+  height: 20%;
+}
+
+.curso{
+  font-size: 1.8rem;
+  position: absolute;
+  margin-top: 1.5%;
+  margin-left: 20%;
+  color: white;
+  text-decoration: none;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  cursor: pointer; 
+  transition: color 0.3s ease;
+}
+.curso:hover{
+  color: var(--cor_hover);
+}
+
+.sobre{
+  font-size: 1.8rem;
+  position: absolute;
+  margin-top: 1.5%;
+  margin-left: 27%;
+  color: white;
+  text-decoration: none;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  cursor: pointer; 
+  transition: color 0.3s ease;
+}
+.sobre:hover{
+  color: var(--cor_hover);
+}
+
+.duvidas{
+  font-size: 1.8rem;
+  position: absolute;
+  margin-top: 1.5%;
+  margin-left: 34%;
+  color: white;
+  text-decoration: none;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  cursor: pointer; 
+  transition: color 0.3s ease;
+}
+.duvidas:hover{
+  color: var(--cor_hover);
+}
+
+.contato_endereco{
+  font-size: 1.8rem;
+  position: absolute;
+  margin-top: 1.5%;
+  margin-left: 43%;
+  color: white;
+  text-decoration: none;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  cursor: pointer; 
+  transition: color 0.3s ease;
+}
+.contato_endereco:hover{
+  color: var(--cor_hover);
+}
+
+.avaliacoes{
+  font-size: 1.8rem;
+  position: absolute;
+  margin-top: 1.5%;
+  margin-left: 63%;
+  color: white;
+  text-decoration: none;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  cursor: pointer; 
+  transition: color 0.3s ease;
+}
+.avaliacoes:hover{
+  color: var(--cor_hover);
+}
+
+.conteudo_pagina{
+  padding: 0% 0% ;
+  display:contents;
+}
+
+/*------------------conteiner curso------------------------ */
+
+.curso_conteiner{
+  padding: 25%;
+  background-color: var(--cor1);
+  color: var(--cor_legenda1);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.curso_movimento{
+  padding: 2%;
+  margin-top: 14%;
+  margin-left: -5.7%;
+}
+
+.conteiner_curso{
+  padding: 2%;
+  margin-top: -46%;
+  margin-left: -30%;
+  width: 15%;
+  border:  1px solid rgb(243, 243, 243);
+}
+.curso_direc{
+  font-size: 2.2rem;
+}
+
+.introducao_video{
+  position: absolute;
+  width: 45%;
+  height: 60%;
+  margin-top: 5%;
+  margin-left: -15%;
+  border-radius: 10px;
+}
+
+.conteiner_vagas{
+  padding: 4% ;
+  width: 22%;
+  height: 1%;
+  margin-top: 5%; 
+  margin-left: 35%;
+  border: 1px solid ;
+  border-radius: 5%;
+  position: absolute;
+}
+.aviso{
+  font-family:'Courier New', Courier, monospace;
+  font-size: 1.4rem;
+  margin-left: 10%;
+  margin-top: -9%;
+  position: absolute;
+}
+.inscrever{
+   color: var(--cor_legenda1);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 3.5rem;
+  margin-left: -5%;
+  margin-top: -2%;
+  text-decoration: none;
+  position: absolute;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.inscrever:hover{
+  color: var(--cor_hover);
+}
+.conteúdo{
+  padding: 70px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 14%;
+  margin-left: 35%;
+  width: 20%;
+  height: 20%;
+  background-color: var(--cor_conteiner1);
+  border-radius: 10px;
+  position: absolute;
+  align-items: center;
+}
+.dinizismo_e_real{
+  font-size: 1.4rem;
+  margin-top: -20%;
+  margin-right: 0%;
+}
+
+/*--------------------conteiner sobre---------------------- */
+
+.sobre_conteiner{
+  padding: 20%;
+  background-color: var(--cor2);
+  color: var(--cor_legenda1);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.conteiner_sobre{
+  padding: 2%;
+  margin-top: -30%;
+  margin-left: -20%;
+  width: 20%;
+  border: 1px solid rgb(253, 255, 255);
+}
+.sobre_direc{
+  font-size: 2.2rem;
+  margin-top: 0%;
+  margin-left: 17%;
+}
+
+.conteiner_caiuemitaqueraojuizopera{
+  padding: 5%;
+  margin-top: 0%;
+  margin-left: 5%;
+  position: absolute;
+}
+
+.caiuemitaqueraojuizopera{
+  font-size: 2.0rem;
+  margin-top: 0%;
+  margin-left: -20%;
+}
+
+/*--------------------conteiner duvidas----------------------*/
+
+.duvidas_conteiner{
+  padding: 32%;
+  background-color: var(--cor1);
+  color: var(--cor_legenda1);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.conteiner_duvidas_conteudo_texto{
+ padding: 1%;
+ margin-top: -45%; 
+ margin-left: -34%;
+}
+.conteiner_duvidas{
+  padding: 2%;
+  margin-top: -30%;
+  margin-left: -26%;
+  width: 60%;
+  border: 1px solid rgb(255, 255, 255);
+}
+.duvidas_direct{
+  font-size: 2.2rem;
+  margin-top: 0%;
+  margin-left: 5%;
+}
+.conteudo_pergunta_texto{
+  font-size: 1.5rem;
+  margin-left: -4%;
+}
+.texto_pergunta{
+  margin-top: 3%;
+  margin-left: -15%;
+  position: absolute;
+}
+.conteiner_peguntas{
+  padding: 1px;
+  margin-top: 12%;
+  margin-left: -15%;
+  position: absolute;
+}
+
+/*--------------------conteiner contato/endereço---------------------- */
+
+.contato_endereco_conteiner{
+  padding: 25%;
+  background-color: var(--cor2);
+  color: var(--cor_legenda1);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.conteiner_contato_endereco{
+  padding: 2%;
+  position: absolute;
+  margin-top: -23%;
+  margin-left: -17%;
+  width: 25%;
+  height: 2%;
+  border: 1px solid rgb(243, 243, 243);
+}
+.contato_endereco_direct{
+  font-size: 2.2rem;
+  margin-top: -5%;
+  margin-left: 3%;
+}
+#map {
+  position: absolute;
+  height: 400px;
+  width: 50%;
+  margin-top: -13%;
+  margin-left: -15%;
+}
+.conteiner_mapa_endereço_contato{
+  position: absolute;
+  background-color: var(--cor_conteiner2);
+  border-radius: 10px;
+  padding: 1%;
+  margin-top: -13%;
+  margin-left: 40%;
+  height: 58%;
+  width: 20%;
+}
+
+
+/*----------------------Separador----------------------------*/
+
+.separador2{
+  padding: 1%;
+  background-color: var(--cor1);
+}
+
+/*--------------------conteiner rodape---------------------- */
+
+.rodape{
+  padding: 15%;
+  background-color: var(--cor_cabecalho_rodape);
+  color: var(--cor_legenda1);
+}
+
+.conteiner_avaliacoes{
+  padding: 2%;
+  position: absolute;
+  margin-top: -13%;
+  margin-left: -10%;
+  width: 33%;
+  height: 2%;
+  border: 1px solid rgb(243, 243, 243);
+}
+
+.avaliacoes_direct{
+  font-size: 2.2rem;
+  margin-top: -3%;
+  margin-left: 2%;
+}
+
+.conteiner_imagens{
+  padding: 2%;
+  margin-top: 5%;
+  margin-left: -2%;
+}
+
+.imagem1{
+  position: absolute;
+  margin-top: -9%;
+  margin-left: 3%;
+  position: absolute;
+  width: 25%;
+  height: 15%;
+
+} 
+
+.imagem2{
+  position: absolute;
+  margin-top: -9%;
+  margin-left: 40%;
+  position: absolute;
+  width: 25%;
+  height: 15%;
+}
+
+.imagem3{
+  position: absolute;
+  margin-top: 0%;
+  margin-left: 3%;
+  position: absolute;
+  width: 25%;
+  height: 15%;
+}
+
+.imagem4{
+  position: absolute;
+  margin-top: 0%;
+  margin-left: 40%;
+  position: absolute;
+  width: 25%;
+  height: 15%;
+}
